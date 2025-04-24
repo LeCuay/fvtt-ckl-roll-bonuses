@@ -322,7 +322,7 @@
                     },
                     "require-melee-threaten": {
                         "description": "Rechaza un ataque cuerpo a cuerpo si el atacante no amenaza al objetivo. Al usar una acción cuerpo a cuerpo, esta rechazará la acción si el objetivo está fuera de alcance.",
-                        "issues": "Puede haber circunstancias en las que el DJ permita un ataque cuerpo a cuerpo contra un objetivo aunque no esté a su alcance. Para evitarlo, simplemente no apuntes a la ficha deseada. Si tienes alguna sugerencia, házmelo saber."
+                        "issues": "Puede haber circunstancias en las que el DJ permita un ataque cuerpo a cuerpo contra un objetivo aunque no esté dentro del alcance. Para sortear esto, puedes omitir seleccionar una ficha o marcar la casilla \"Ignorar alcance cuerpo a cuerpo\" en el cuadro de diálogo de ataque."
                     }
                 }
             }
@@ -389,7 +389,7 @@
         "script-call-dialog": {
             "delete-script-message": "Una vez se borre este script no podrá ser recuperado.<br>¿Estás seguro/a de que quieres borrar este script?",
             "delete-script-title": "Borrar script - {name}",
-            "edit-macro-message": "Está intentando editar un macro referenciado que no pertenece a este Artículo.<br><br>Modificar este macro significa que estarás editando directamente el macro del mundo. Cualquier uso de este macro será modificado.<br><br>¿Estás seguro de que quieres editar este macro?",
+            "edit-macro-message": "Está intentando editar un macro referenciado que no pertenece a este Artículo.<br><br>Modificar este macro significa que estarás editando directamente el macro del mundo. Cualquier otro uso de este macro será modificado.<br><br>¿Estás seguro de que quieres editar este macro?",
             "edit-macro-title": "Editar macro - {name}"
         },
         "skills": {
